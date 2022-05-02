@@ -76,6 +76,7 @@ a {
 .btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  font-family: 'Roboto',sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -137,6 +138,7 @@ a {
 
 .address {
   color: var(--primary-white-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -145,6 +147,7 @@ a {
 
 .address-item {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

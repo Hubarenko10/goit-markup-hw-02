@@ -54,6 +54,7 @@ a {
 /*main*/
 .btn {
   color: var(--primary-text-color);
+  font-family: 'Roboto',sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -88,6 +89,7 @@ a {
 }
 .address {
   color: var(--primary-white-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -95,6 +97,7 @@ a {
 }
 .address-item {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
