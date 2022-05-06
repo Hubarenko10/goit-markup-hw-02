@@ -8,15 +8,41 @@
 body {
   background-color: var(--primary-white-color);
   font-family: 'Roboto', sans-serif;
-
+  
 }
 
 a {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
 
 /*header*/
+.nav-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+  display: flex;
+  align-items: center ;
+  
+}
+
+  
+
+.site-nav{
+  display:flex ;
+  align-items: center;
+ 
+  
+  
+}
 
 .list {
   list-style-type: none;
@@ -29,6 +55,7 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  
 }
 
 .logo {
@@ -41,12 +68,33 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  margin-left: 95px;
+}
+
+.site-nav-item:not(:last-child){
+  padding-right: 50px;
 }
 
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
 }
+/*contact-container*/
+.container-contact{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-list{
+  display: flex;
+  
+}
+
+.contact-list-item:not(:last-child){
+  padding-right: 50px;
+}
+
 
 .contact-link {
   color: var(--secondary-text-color);
@@ -54,15 +102,20 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  
 }
 
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
 }
+
 /*main*/
 .hero {
   background-color: var(--backround-color);
+  display: inline-block;
+  width: 1200px;
+  height: 600px;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -72,7 +125,14 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  margin-right: 450px;
+  width: 650px;
+  height: 120px; 
 }
+
 .btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -81,6 +141,9 @@ a {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;  
+  margin-left: 500px;
 }
 
 
